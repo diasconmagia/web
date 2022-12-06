@@ -13025,3 +13025,15 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+.logo-magia {
+  max-width: 80px;
+}
+@media (max-width: 991.98px) {
+  .logo-magia {
+    display: none;
+  }
+  .owl-carousel.home-slider {
+    z-index: -1 !important;
+  }
+}
